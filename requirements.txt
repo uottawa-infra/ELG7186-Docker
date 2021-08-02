@@ -4,9 +4,7 @@ scipy
 matplotlib
 pillow
 tensorflow
-tensorboard
 tensorflow-gpu
-tensorboard-gpu
 keras
 scikit-learn
 scikit-image
