@@ -1,4 +1,4 @@
-FROM jupyter/tensorflow-notebook
+FROM jupyter/tensorflow-notebook:tensorflow-2.4.1
 # Get the latest image tag at:
 # https://hub.docker.com/r/jupyter/tensorflow-notebook/tags/
 # Inspect the Dockerfile at:
