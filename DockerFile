@@ -1,1 +1,19 @@
+FROM jupyter/tensorflow-notebook
+# Get the latest image tag at:
+# https://hub.docker.com/r/jupyter/tensorflow-notebook/tags/
+# Inspect the Dockerfile at:
+# https://github.com/jupyter/docker-stacks/tree/HEAD/tensorflow-notebook/Dockerfile
 
+# install additional package...
+RUN pip install --no-cache-dir astropy
+RUN pip install nbgitpuller
+RUN pip install notebook
+RUN pip install numpy
+RUN pip install scipy
+RUN pip install matplotlib
+RUN pip install pillow
+RUN pip install tensorflow
+RUN pip install keras
+RUN pip install scikit-learn
+RUN pip install scikit-image
+RUN pip install pandas
